@@ -39,15 +39,4 @@ public class SongDetailsController {
         return "songDetails";
     }
 
-//    @PostMapping("/add")
-//    public String addArtistToSong(@RequestParam Long artistId, @RequestParam Long trackId) {
-//        Artist artist = artistService.ArtistFindById(artistId).orElse(null);
-//        Song song = songService.findById(trackId);
-//        if (artist == null || song == null) {
-//            return "redirect:/artists?songId=" + trackId + "&error=InvalidArtistOrSong";
-//        }
-//
-//        songService.addArtistToSong(artist, song);
-//        return "redirect:/songDetails?trackId=" + trackId;
-//    }
 }
